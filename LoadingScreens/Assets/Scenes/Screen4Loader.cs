@@ -26,13 +26,15 @@ public class Screen4Loader : MonoBehaviour
 
     private IEnumerator BeginLoad(string sceneName)
     {
+        yield return new WaitForSeconds(10);
+
         //get scene loader
         operation = SceneManager.LoadSceneAsync(sceneName);
 
         //while scene isn't done loading, return null
         while(!operation.isDone)
         {
-            yield return new WaitForSeconds(500000);
+            yield return null;
         }
 
         //done with scene loader
