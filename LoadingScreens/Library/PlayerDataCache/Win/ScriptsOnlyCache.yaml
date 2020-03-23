@@ -6,7 +6,10 @@ ScriptsOnlyBuild:
     - Invector.Utils.vComment
     - Invector.vCharacterController.vThirdPersonController
     - Invector.vCharacterController.vThirdPersonInput
+    - LoadScreen
+    - LoadScreen2
     - LoadScreen4
+    - Screen2Loader
     - Screen4Loader
     - vThirdPersonCamera
     Unity.Rider.Editor.dll:
@@ -27,6 +30,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Scene 1.unity:
     - Class: 1
@@ -68,14 +73,40 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11352}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 12734}
+      Script: {instanceID: 11470}
+    - Class: 114
+      Script: {instanceID: 11780}
+    - Class: 114
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 11918}
+    - Class: 114
+      Script: {instanceID: 12034}
+    - Class: 114
+      Script: {instanceID: 12394}
+    - Class: 114
+      Script: {instanceID: 12448}
+    - Class: 114
+      Script: {instanceID: 12590}
+    - Class: 114
+      Script: {instanceID: 12652}
+    - Class: 114
+      Script: {instanceID: 13004}
+    - Class: 114
+      Script: {instanceID: 13036}
+    - Class: 114
+      Script: {instanceID: 20816}
+    - Class: 114
+      Script: {instanceID: 20818}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -89,7 +120,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
-    - Class: 205
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Scene 2.unity:
     - Class: 1
@@ -131,13 +168,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12734}
+      Script: {instanceID: 12448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -151,8 +188,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 205
       Script: {instanceID: 0}
     Assets/Scenes/Scene 3.unity:
     - Class: 1
@@ -198,37 +233,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11478}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12330}
+      Script: {instanceID: 12044}
     - Class: 114
-      Script: {instanceID: 12528}
+      Script: {instanceID: 12242}
     - Class: 114
-      Script: {instanceID: 12680}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12694}
+      Script: {instanceID: 12408}
     - Class: 114
-      Script: {instanceID: 12734}
+      Script: {instanceID: 12448}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12590}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12652}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 13290}
+      Script: {instanceID: 13004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -244,8 +279,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -297,13 +330,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12734}
+      Script: {instanceID: 12448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -317,8 +350,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 205
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -807,10 +838,22 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e278dfbd0b9f6ecf2b47b0093eaba0a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Screen2Loader
+  - hash:
+      serializedVersion: 2
+      Hash: 661a58e8ad48cd435aa02e6a0521d164
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadScreen2
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene 3.unity
   - Assets/Scenes/Scene 4.unity
-  - Assets/Scenes/Scene 2.unity
   - Assets/Scenes/Scene 1.unity
-  playerPath: C:/Users/Leah/Documents/builds/LoadingScreens.exe
+  - Assets/Scenes/Scene 2.unity
+  playerPath: E:/Unity Builds/Loading Screens/LoadingScreens.exe
