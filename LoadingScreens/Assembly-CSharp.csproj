@@ -71,9 +71,12 @@
     <Compile Include="Assets\Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
+    <Compile Include="Assets\Scripts\ClickCounter.cs" />
     <Compile Include="Assets\Scripts\LoadScreen.cs" />
+    <Compile Include="Assets\Scripts\LoadScreen1.cs" />
     <Compile Include="Assets\Scripts\LoadScreen2.cs" />
     <Compile Include="Assets\Scripts\LoadScreen4.cs" />
+    <Compile Include="Assets\Scripts\Screen1Loader.cs" />
     <Compile Include="Assets\Scripts\Screen2Loader.cs" />
     <Compile Include="Assets\Scripts\Screen4Loader.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
